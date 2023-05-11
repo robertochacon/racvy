@@ -25,6 +25,24 @@ a:hover {
     height: 100vh;
 }
 
+.border-top-product {
+    padding-top: 0px;
+    border-top: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo-contenido {
+        height: auto;
+    }
+    .bg-sections {
+        height: auto;
+    }
+    .border-top-product {
+        padding-top: 10px;
+        border-top: 3px solid #f46530;
+    }
+}
+
 section {
     display: flex;
     align-items: center;
