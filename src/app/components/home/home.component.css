@@ -23,5 +23,9 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    ;
+}
+
+section {
+    display: flex;
+    align-items: center;
 }
