@@ -35,11 +35,12 @@ a:hover {
         height: auto;
     }
     .bg-sections {
+        background-size: 100% 100%;
         height: auto;
     }
     .border-top-product {
         padding-top: 10px;
-        border-top: 3px solid #f46530;
+        border-top: 1px solid #263238;
     }
 }
 
