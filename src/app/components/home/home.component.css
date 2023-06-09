@@ -13,7 +13,9 @@ a:hover {
 }
 
 .todo-contenido {
-    height: 100vh;
+    /* height: 100vh;
+    overflow: auto;
+    padding-right: 1px; */
 }
 
 .bg-sections {
@@ -22,7 +24,7 @@ a:hover {
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .border-top-product {
@@ -31,12 +33,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .todo-contenido {
+    /* .todo-contenido {
         height: auto;
-    }
+    } */
     .bg-sections {
         background-size: 100% 100%;
-        height: auto;
+        /* height: auto; */
     }
     .border-top-product {
         padding-top: 10px;
